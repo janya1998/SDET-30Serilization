@@ -20,6 +20,8 @@ System.out.println(emp);
 //step2:create  object objectmapper class from jacksonmapper parsar
 ObjectMapper obj=new ObjectMapper();
 obj.writeValue(new File("./emp1.json"),emp);
+
+
 	}
 		
 	}
